@@ -1,0 +1,50 @@
+/* 導覽列背景和文字 */
+.custom-bg {
+    background-color: #071022 !important; /* 漂亮深藍底色 */
+  }
+  
+  .custom-bg .navbar-brand,
+  .custom-bg .nav-link {
+    color: #ffffff !important; /* 白色文字，清楚可讀 */
+  }
+  
+  .custom-bg .nav-link:hover,
+  .custom-bg .nav-link:focus {
+    color: #50f46e !important; /* 滑鼠經過變黃，增加互動感 */
+  }
+  
+  /* Active link */
+  .custom-bg .nav-link.active {
+    font-weight: bold;
+    color: #ffffff !important; /* 高亮 active */
+  }
+  
+  /* 登入/登出按鈕白底黑字 */
+  .btn-white-bg {
+    background-color: #ffffff !important;
+    color: #204080 !important; /* 深藍字，和 navbar 配色呼應 */
+    border: 1px solid #204080 !important; /* 邊框同色 */
+  }
+  
+  .btn-white-bg:hover {
+    background-color: #f0f0f0 !important; /* 滑鼠經過淡灰色 */
+    color: #204080 !important;
+  }
+  /* Footer 背景深藍，文字白色 */
+.footer {
+    background-color: #071022; /* 深藍底 */
+    color: #ffffff;            /* 文字白色 */
+    padding: 20px 0;           /* 上下間距 */
+    text-align: center;        /* 文字置中 */
+  }
+  
+  .footer a {
+    color: #ffffff;            /* 連結白色 */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* 滑鼠經過有底線 */
+  }
+
+  
